@@ -6,13 +6,13 @@
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "type": "commonjs",
-  "homepage": "https://github.com/nainnkarimmm/Vexora-Baileys",
+  "homepage": "https://github.com/nainnkarimmm-source/Vexora-Baileys",
   "repository": {
     "type": "git",
-    "url": "https://github.com/nainnkarimmm/Vexora-Baileys.git"
+    "url": "https://github.com/nainnkarimmm-source/Vexora-Baileys.git"
   },
   "bugs": {
-    "url": "https://github.com/nainnkarimmm/Vexora-Baileys/issues"
+    "url": "https://github.com/nainnkarimmm-source/Vexora-Baileys/issues"
   },
   "license": "MIT",
   "author": "Vexora Team",
