@@ -1,0 +1,14 @@
+VEXORA BAILEYS - KIT DOKUMENTASI DAN BRANDING GITHUB
+
+PENTING:
+Kit ini BUKAN salinan kode sumber Baileys. Untuk membuat fork yang benar,
+buka https://github.com/WhiskeySockets/Baileys lalu tekan tombol Fork di GitHub.
+
+Setelah fork dibuat:
+1. Clone repositori fork milikmu.
+2. Salin semua isi kit ini ke root repositori fork.
+3. Ganti USERNAME pada package.json setelah menjalankan script branding.
+4. Pertahankan LICENSE asli dan pemberitahuan hak cipta upstream.
+5. Jalankan pemeriksaan proyek sesuai README.
+
+Baca docs/SEBELUM_PUBLISH.md terlebih dahulu.
