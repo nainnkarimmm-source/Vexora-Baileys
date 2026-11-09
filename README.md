@@ -1,83 +1,47 @@
-# Vexora Baileys
 
-**Vexora Baileys** adalah fork komunitas dari [WhiskeySockets/Baileys](https://github.com/WhiskeySockets/Baileys), sebuah library TypeScript/JavaScript berbasis WebSocket untuk berinteraksi dengan WhatsApp Web.
+# Vexora Baileys Rill
 
-> [!IMPORTANT]
-> Repositori ini adalah proyek independen dan tidak berafiliasi, didukung, atau disponsori oleh WhatsApp maupun Meta. WhatsApp adalah merek dagang pemiliknya.
->
-> Vexora Baileys tidak menganjurkan spam, pesan massal yang tidak diminta, penguntitan, pemantauan tersembunyi, atau penggunaan yang melanggar ketentuan WhatsApp. Gunakan hanya pada akun dan percakapan yang memang kamu berwenang kelola.
+**Library WhatsApp Web untuk JavaScript dan TypeScript.**
 
-## Tentang proyek
+Dikembangkan oleh Vexora Team berdasarkan proyek Baileys.
 
-Vexora Baileys bertujuan menjaga kompatibilitas dengan proyek upstream sambil menyediakan dokumentasi berbahasa Indonesia, perbaikan yang ditinjau, dan kemudahan kontribusi untuk komunitas.
-
-**Ini adalah library, bukan aplikasi bot siap pakai.** Pengembang menggunakannya sebagai dependensi dalam aplikasi mereka sendiri.
-
-## Status
-
-- Basis kode: fork dari WhiskeySockets/Baileys.
-- Bahasa utama: TypeScript.
-- Runtime: Node.js.
-- Lisensi upstream: MIT. Pertahankan file `LICENSE` asli dan semua pemberitahuan hak cipta.
-- Versi: ikuti versi upstream sampai perubahan Vexora memiliki proses rilis tersendiri.
-
-## Persyaratan
-
-Periksa `package.json` dan `engine-requirements.js` dari versi upstream yang sedang kamu fork untuk mengetahui versi Node.js, Yarn, dan Corepack yang tepat. Baileys 7 membawa perubahan yang tidak kompatibel dengan beberapa pola API versi sebelumnya; baca panduan migrasi sebelum memperbarui kode.
-
-## Instalasi dari GitHub
-
-```bash
-git clone https://github.com/USERNAME/vexora-baileys.git
-cd vexora-baileys
-corepack enable
-yarn install
-yarn build
-```
-
-Ganti `USERNAME` dengan nama akun atau organisasi GitHub pemilik repositori.
-
-## Instalasi sebagai dependensi
-
-Setelah paket diterbitkan dengan nama npm yang sudah kamu kuasai:
+## 📦 Instalasi
 
 ```bash
 npm install vexora-baileys
 ```
 
-Nama `vexora-baileys` hanya nama paket yang disarankan. Pastikan nama tersebut tersedia di npm sebelum publikasi. Jika menggunakan scope, pastikan kamu memiliki scope itu.
+## 🚀 Tentang
 
-## Contoh penggunaan
+Vexora Baileys adalah proyek fork dan pengembangan dari Baileys yang bertujuan menyediakan library WhatsApp Web untuk developer.
 
-API dapat berubah mengikuti versi upstream. Contoh berikut hanya pola awal; cocokkan import dan opsi socket dengan dokumentasi versi yang dipakai.
+## ✨ Fitur
 
-```ts
-import makeWASocket from 'vexora-baileys'
+- Koneksi WhatsApp Web
+- Autentikasi menggunakan Pairing Code atau QR Code
+- Pengiriman dan penerimaan pesan
+- Dukungan media
+- Pengelolaan grup
+- Event handler
+- Dukungan JavaScript dan TypeScript
 
-const sock = makeWASocket({
-  // Isi opsi sesuai dokumentasi versi Baileys yang digunakan.
-})
+## 💻 Persyaratan
 
-sock.ev.on('connection.update', (update) => {
-  console.log('Pembaruan koneksi:', update)
-})
-```
+- Node.js sesuai persyaratan versi proyek.
+- npm
+- Git
 
-Jangan memasukkan kredensial, file sesi, token, atau data pribadi ke repositori publik.
+## 📖 Dokumentasi
 
-## Dokumentasi
+Dokumentasi penggunaan akan dikembangkan secara bertahap.
 
-- [Panduan proyek](docs/PANDUAN_PROYEK.md)
-- [Kebijakan keamanan](SECURITY.md)
-- [Panduan kontribusi](CONTRIBUTING.md)
-- [Catatan atribusi fork](FORK-ATTRIBUTION.md)
+## ⚖️ Lisensi
 
-Dokumentasi protokol dan API upstream: https://baileys.wiki/
+MIT License.
 
-## Melaporkan masalah
+Proyek ini merupakan fork dari WhiskeySockets/Baileys.
+Seluruh pemberitahuan hak cipta dan lisensi upstream tetap dipertahankan dek.
 
-Sertakan versi Node.js, versi Vexora Baileys, langkah reproduksi, dan log yang sudah disamarkan. Jangan unggah file sesi atau informasi akun.
+## Pengembang
 
-## Kredit
-
-Vexora Baileys dibangun dari karya WhiskeySockets/Baileys. Terima kasih kepada para maintainer dan kontributor upstream. Lihat `FORK-ATTRIBUTION.md` dan file `LICENSE` asli untuk informasi lisensi.
+**Vexora Team**
